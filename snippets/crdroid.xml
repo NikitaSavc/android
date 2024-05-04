@@ -64,6 +64,16 @@
   <project path="hardware/qcom-caf/sm8150/display" name="crdroidandroid/android_hardware_qcom_display" groups="qcom" revision="14.0-caf-sm8150" />
   <project path="hardware/qcom-caf/sm8150/media" name="crdroidandroid/android_hardware_qcom_media" groups="qcom,msmnile" revision="14.0-caf-sm8150" />
 
+  <!-- bengal_515 CLO additions -->
+  <project path="device/qcom/sepolicy_vndr/sm6225" name="crdroidandroid/android_device_qcom_sepolicy_vndr" revision="14.0-caf-sm6225" />
+  <project path="hardware/qcom-caf/sm6225/audio/agm" name="crdroidandroid/android_vendor_qcom_opensource_agm" revision="14.0-caf-sm6225" />
+  <project path="hardware/qcom-caf/sm6225/audio/pal" name="crdroidandroid/android_vendor_qcom_opensource_arpal-lx" revision="14.0-caf-sm6225" />
+  <project path="hardware/qcom-caf/sm6225/audio/primary-hal" name="crdroidandroid/android_hardware_qcom_audio" revision="14.0-caf-sm6225" />
+  <project path="hardware/qcom-caf/sm6225/data-ipa-cfg-mgr" name="crdroidandroid/android_vendor_qcom_opensource_data-ipa-cfg-mgr" revision="14.0-caf-sm6225" />
+  <project path="hardware/qcom-caf/sm6225/dataipa" name="crdroidandroid/android_vendor_qcom_opensource_dataipa" revision="14.0-caf-sm6225" />
+  <project path="hardware/qcom-caf/sm6225/display" name="crdroidandroid/android_hardware_qcom_display" revision="14.0-caf-sm6225" />
+  <project path="hardware/qcom-caf/sm6225/media" name="crdroidandroid/android_hardware_qcom_media" revision="14.0-caf-sm6225" />
+
   <project path="lineage-sdk" name="crdroidandroid/android_lineage-sdk" remote="crdroid" />
 
   <project path="packages/apps/Backgrounds" name="crdroidandroid/android_packages_apps_Backgrounds" remote="crdroid" />
